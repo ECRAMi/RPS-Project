@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+h2 {
+    font-size: xx-large;
+}
+
+.container {
+    margin: 0 35%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.resultsTXT {
+    position: absolute;
+    right: 40%;
+    left: 40%;
+    bottom: 5vw;
+}

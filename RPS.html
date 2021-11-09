@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>You are RED<br>Click on your action</h1>
+        <h3>RED - BLU</h3>
+        <div id = "score"><p>0 - 0</p></div>
+        <div class="container">
+            <div id = "choices">
+                <button id = "Rock" onClick = "RPS(0)"><img src="imgs/RPS_Rock_Red.png"></button>
+                <button id = "Paper" onClick = "RPS(1)"><img src="imgs/RPS_Paper_Red.png"></button>
+                <button id = "Scissors" onClick = "RPS(2)"><img src="imgs/RPS_Scissors_Red.png"></button>
+            </div>
+            <h2>VS.</h2>
+            <div id = "bluChoices">
+                <img src="imgs/RPS_Rock_Blu.png">
+                <img src="imgs/RPS_Paper_Blu.png">
+                <img src="imgs/RPS_Scissors_Blu.png">
+            </div>
+        </div>
+        <div class = "resultsTXT">
+            <h1>Results</h1>
+            <div id = "results">
+                <h2>No results yet</h2>
+            </div>
+        </div>
+    </body>
+</html>
